@@ -1,8 +1,10 @@
 jpegfiles
 =========
 
-Various jpeg test images.
+Various jpeg test images, and spec PDFs
 
+Images
+------
 
 ### GOPRO0027.JPG
 
@@ -13,3 +15,19 @@ Has an R98 Interopability IFD, and a 160x120 Exif jpeg thumbnail (the max size
 allowed per R98).
 Has an APP2 MPF IFD pointing at a 960x720 thumbnail.
 The main image is 5568x4176.
+
+Spec PDFs
+---------
+
+### XMPSpecificationPart3.pdf
+
+"XMP Specification Part 3: Storage in files"
+
+Explains APP1 markers starting with "http://ns.adobe.com/xap/1.0/" and with
+"http://ns.adobe.com/xmp/extension/".
+
+Used to be at
+http://www.adobe.com/content/dam/Adobe/en/devnet/xmp/pdfs/XMPSpecificationPart3.pdf
+but that 404s now.
+
+Obtained from [here](https://github.com/adobe/xmp-docs/blob/master/XMPSpecifications/XMPSpecificationPart3.pdf)
