@@ -29,6 +29,14 @@ Used to be at http://www.cipa.jp/std/documents/e/DC-007\_E.pdf
 
 Obtained from [here](https://web.archive.org/web/20190713230858/http://www.cipa.jp/std/documents/e/DC-007_E.pdf)
 
+### DC-010-2020\_E.pdf
+
+"Exif 2.32 metadata for XMP"
+
+Maps exif fields to XMP tag names.
+
+Obtained from [here](https://www.cipa.jp/std/documents/download_e.html?DC-010-2020_E)
+
 ### XMPSpecificationPart3.pdf
 
 "XMP Specification Part 3: Storage in files"
