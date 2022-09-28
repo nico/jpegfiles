@@ -55,6 +55,18 @@ Maps exif fields to XMP tag names.
 
 Obtained from [here](https://www.cipa.jp/std/documents/download_e.html?DC-010-2020_E)
 
+### mwg\_guidance.pdf
+
+"GUIDELINES FOR HANDLING IMAGE METADATA"
+
+Overview of Exif, XMP, IPTC. Has recommendations which one to use if a file
+contains several of them.
+
+Used to be at http://www.metadataworkinggroup.org/pdf/mwg_guidance.pdf but
+that server seems dead.
+
+Obtained from [here](https://s3.amazonaws.com/software.tagthatphoto.com/docs/mwg_guidance.pdf)
+
 ### itu-t89.pdf
 
 "INFORMATION TECHNOLOGY – DIGITAL COMPRESSION AND CODING OF CONTINUOUS-TONE
