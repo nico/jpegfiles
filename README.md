@@ -46,6 +46,15 @@ Maps exif fields to XMP tag names.
 
 Obtained from [here](https://www.cipa.jp/std/documents/download_e.html?DC-010-2020_E)
 
+### itu-t89.pdf
+
+"INFORMATION TECHNOLOGY – DIGITAL COMPRESSION AND CODING OF CONTINUOUS-TONE
+STILL IMAGES – REQUIREMENTS AND GUIDELINES"
+
+The JPEG standard. Explains codec.
+
+Obtained from https://www.w3.org/Graphics/JPEG/itu-t81.pdf
+
 ### XMPSpecificationPart3.pdf
 
 "XMP Specification Part 3: Storage in files"
