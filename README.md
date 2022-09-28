@@ -19,6 +19,16 @@ The main image is 5568x4176.
 Spec PDFs
 ---------
 
+### DC-007\_E.pdf
+
+"CIPA DC-007-Translation-2009: Multi-Picture Format"
+
+Explains APP2 "MPF" markers.
+
+Used to be at http://www.cipa.jp/std/documents/e/DC-007\_E.pdf
+
+Obtained from [here](https://web.archive.org/web/20190713230858/http://www.cipa.jp/std/documents/e/DC-007_E.pdf)
+
 ### XMPSpecificationPart3.pdf
 
 "XMP Specification Part 3: Storage in files"
