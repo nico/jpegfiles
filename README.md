@@ -29,6 +29,15 @@ Used to be at http://www.cipa.jp/std/documents/e/DC-007_E.pdf
 
 Obtained from [here](https://web.archive.org/web/20190713230858/http://www.cipa.jp/std/documents/e/DC-007_E.pdf)
 
+### DC-008-Translation-2019-E.pdf
+
+"CIPA DC-008-Translation-2019: Exchangeable image file format for digital
+still cameras: Exif version 2.32"
+
+The Exif standard.
+
+Obtained from [here](https://www.cipa.jp/std/documents/download_e.html?DC-008-Translation-2019-E)
+
 ### DC-009-2020\_E.pdf
 
 "CIPA DC-009-Translation-2010: Design rule for Camera File system"
