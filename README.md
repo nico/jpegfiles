@@ -55,6 +55,14 @@ The JPEG standard. Explains codec.
 
 Obtained from https://www.w3.org/Graphics/JPEG/itu-t81.pdf
 
+### jfif3.pdf
+
+"JPEG File Interchange Format"
+
+The JFIF APP0 container. For digital camera pictures, obsoleted by EXIF.
+
+Obtained from https://www.w3.org/Graphics/JPEG/jfif3.pdf
+
 ### XMPSpecificationPart3.pdf
 
 "XMP Specification Part 3: Storage in files"
