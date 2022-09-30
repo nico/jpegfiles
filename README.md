@@ -67,6 +67,16 @@ that server seems dead.
 
 Obtained from [here](https://s3.amazonaws.com/software.tagthatphoto.com/docs/mwg_guidance.pdf)
 
+### icc-1\_1998-09.pdf
+
+"Specification ICC.1:1998-09"
+
+Old version of ICC.1-2022-05.pdf below. Describes the old `textDescriptionType`
+type, which the current version no longer describes. Files conforming to
+ICC V2.4.0 and earlier still use this type.
+
+Obtained from [here](https://www.color.org/icc-1_1998-09.pdf)
+
 ### ICC.1-2022-05.pdf
 
 "Specification ICC.1:2022 (Profile version 4.4.0.0)"
