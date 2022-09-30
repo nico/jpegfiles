@@ -67,6 +67,18 @@ that server seems dead.
 
 Obtained from [here](https://s3.amazonaws.com/software.tagthatphoto.com/docs/mwg_guidance.pdf)
 
+### ICC.1-2022-05.pdf
+
+"Specification ICC.1:2022 (Profile version 4.4.0.0)"
+
+Obtained from https://www.color.org/specification/ICC.1-2022-05.pdf
+
+### ICC-Technote-ProfileEmbedding.pdf
+
+"ICC Technical Note Embedding ICC profiles"
+
+Obtained from https://www.color.org/technotes/ICC-Technote-ProfileEmbedding.pdf
+
 ### itu-t89.pdf
 
 "INFORMATION TECHNOLOGY – DIGITAL COMPRESSION AND CODING OF CONTINUOUS-TONE
