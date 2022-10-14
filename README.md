@@ -18,6 +18,24 @@ Off a Sony a7iv, unmodified, manually copied off the memory card.
 * Has a mostly empty XMP section.
 * No colorspace information (!)
 
+### DSC03136-exported.jpg
+
+Like DSC03136.JPG, but made by importing the raw file DSC03136.ARW into
+Lightroom Classic and exporting it as jpeg.
+
+It's interesting to compare to DSC03136.JPG. Some Exif tags get added
+(ShutterSpeedValue, ApertureValue, ...), some removed (InteropabilityIFD,
+MakerNote, ...). An `APP2`/`ICC_PROFILE` got added, ICMP got added, `RST`
+markers inserted, the `MPF` thumbnail removed, and the Exif thumbnail is
+now 256x171. (Which is fine since the InteropabilityIFD no longer claims that
+this is an R98 JPEG, which would limit Exif thumbnail size to 160x120).
+
+* Has APP1 Exif, no APP0 JFIF.
+* The main image is 7008x4672.
+* Has a mostly empty XMP section.
+* Has `ICC_PROFILE`.
+* Has ICMP section (...I think).
+
 
 ### GOPRO0027.JPG
 
