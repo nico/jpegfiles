@@ -6,6 +6,18 @@ Various jpeg test images, and spec PDFs
 Images
 ------
 
+### DJI\_406.JPG
+
+Off a DJI Mini 2, unmodified.
+
+* Has APP1 Exif, no APP0 JFIF.
+* Has an R98 Interopability IFD, but a 256x192 Exif jpeg thumbnail
+  (larger than allowed per R98 from what I understand).
+* Has GPS IFD.
+* Has an APP2 MPF IFD pointing at a 960x720 thumbnail.
+* Has an XMP section.
+* No colorspace information
+
 ### DSC03136.JPG
 
 Off a Sony a7iv, unmodified, manually copied off the memory card.
