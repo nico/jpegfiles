@@ -79,3 +79,16 @@ Spec PDFs
 ---------
 
 See `specs` folder.
+
+
+Where JPEGs can have thumbnails
+-------------------------------
+
+* In the JFIF APP0 jfif marker segment (uncompressed 24-bit RGB)
+* In the JFXX APP0 jfif extension marker segment (jpeg, 8-bit palletized, or
+  uncompressed 24-bit RGB)
+* In the Exif APP1 exif segment
+* In the 'Photoshop 3.0' APP13 marker segment
+* After the main image data, with the MPF extension (indicated by the MPF APP2
+  marker segment -- but the image data is outside a marker, so this is the
+  only thumbnail that can be larger than 64 kiB)
