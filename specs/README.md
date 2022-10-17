@@ -73,6 +73,12 @@ Obtained from https://www.color.org/specification/ICC.1-2022-05.pdf
 
 Obtained from https://www.color.org/technotes/ICC-Technote-ProfileEmbedding.pdf
 
+## IIMV4.1.pdf
+
+"IPTC - NAA Information Interchange Model Version 4"
+
+Obtained from https://www.iptc.org/std/IIM/4.1/specification/IIMV4.1.pdf
+
 ## itu-t89.pdf
 
 "INFORMATION TECHNOLOGY – DIGITAL COMPRESSION AND CODING OF CONTINUOUS-TONE
