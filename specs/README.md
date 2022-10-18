@@ -96,6 +96,15 @@ that server seems dead.
 
 Obtained from [here](https://s3.amazonaws.com/software.tagthatphoto.com/docs/mwg_guidance.pdf)
 
+## Photoshop API Guide.pdf
+
+"Adobe Photoshop Application Programming Interface Guide"
+
+PhotoshopFileFormats.htm below references "Appendix A" in this guide in a few
+places.
+
+Obtained from https://usermanual.wiki/Document/Photoshop20API20Guide.1445764450/view
+
 ## PhotoshopFileFormats.htm
 
 "Adobe Photoshop File Formats Specification"
