@@ -39,18 +39,6 @@ Maps exif fields to XMP tag names.
 
 Obtained from [here](https://www.cipa.jp/std/documents/download_e.html?DC-010-2020_E)
 
-## mwg\_guidance.pdf
-
-"GUIDELINES FOR HANDLING IMAGE METADATA"
-
-Overview of Exif, XMP, IPTC. Has recommendations which one to use if a file
-contains several of them.
-
-Used to be at http://www.metadataworkinggroup.org/pdf/mwg_guidance.pdf but
-that server seems dead.
-
-Obtained from [here](https://s3.amazonaws.com/software.tagthatphoto.com/docs/mwg_guidance.pdf)
-
 ## icc-1\_1998-09.pdf
 
 "Specification ICC.1:1998-09"
@@ -95,6 +83,18 @@ Obtained from https://www.w3.org/Graphics/JPEG/itu-t81.pdf
 The JFIF APP0 container. For digital camera pictures, obsoleted by EXIF.
 
 Obtained from https://www.w3.org/Graphics/JPEG/jfif3.pdf
+
+## mwg\_guidance.pdf
+
+"GUIDELINES FOR HANDLING IMAGE METADATA"
+
+Overview of Exif, XMP, IPTC. Has recommendations which one to use if a file
+contains several of them.
+
+Used to be at http://www.metadataworkinggroup.org/pdf/mwg_guidance.pdf but
+that server seems dead.
+
+Obtained from [here](https://s3.amazonaws.com/software.tagthatphoto.com/docs/mwg_guidance.pdf)
 
 ## PhotoshopFileFormats.htm
 
