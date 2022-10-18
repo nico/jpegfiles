@@ -96,6 +96,15 @@ The JFIF APP0 container. For digital camera pictures, obsoleted by EXIF.
 
 Obtained from https://www.w3.org/Graphics/JPEG/jfif3.pdf
 
+## PhotoshopFileFormats.htm
+
+"Adobe Photoshop File Formats Specification"
+
+"Image Resources Section" describes the data stored in `APP13` /
+'Photoshop 3.0' blocks, which is the container for IPTC data.
+
+Obtained from https://www.adobe.com/devnet-apps/photoshop/fileformatashtml/
+
 ## XMPSpecificationPart3.pdf
 
 "XMP Specification Part 3: Storage in files"
