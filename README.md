@@ -60,6 +60,17 @@ Off a GoPro HERO10 Black, unmodified.
 * The main image is 5568x4176.
 * No colorspace information.
 
+### IMG\_9424.JPG
+
+Off an iPhone SE (2nd generation), unmodified. iPhone configured to write
+jpeg files (as opposed to the default HEIF).
+
+* Has APP1 Exif, no APP0 JFIF.
+* No R98 Interopability IFD, but still a 160x120 Exif jpeg thumbnail.
+* Has a GPS IFD.
+* No XMP section.
+* The main image is 4032x3024.
+
 ### PXL\_20221005\_164629049.jpg
 
 Taken with a Pixel Pro 6 with the main camera, unmodified.
