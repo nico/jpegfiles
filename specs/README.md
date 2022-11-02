@@ -39,6 +39,16 @@ Maps exif fields to XMP tag names.
 
 Obtained from [here](https://www.cipa.jp/std/documents/download_e.html?DC-010-2020_E)
 
+## Dynamic-depth-v1.0.pdf
+
+"Dynamic Depth"
+
+Documents XMP use in Pixel phones, and how it bundles multiple files into
+a single jpeg (cf "Media Data Encoding" -> "Concatenated File Container").
+This does something similar to MPF, but differently.
+
+Obtained from [here](https://developer.android.com/training/camera2/Dynamic-depth-v1.0.pdf)
+
 ## icc-1\_1998-09.pdf
 
 "Specification ICC.1:1998-09"
