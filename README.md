@@ -6,6 +6,20 @@ Various jpeg test images, and spec PDFs
 Images
 ------
 
+### check\_lut.jpeg
+
+Has `A2B0`, `A2B1`, `A2B1` (of type `mft2`) in its color profile instead of the
+much more common `rXYZ`, `gXYZ`, `bXYZ`, `rTRC`, `gTRC`, `bTRC`, `wtpt`.
+
+Obtained from https://littlecms.com/blog/2020/09/09/browser-check/
+
+### check\_full.jpeg
+
+Has `A2B0`, `A2B1`, `A2B1` (of type `mft2`) as well as
+`rXYZ`, `gXYZ`, `bXYZ`, `rTRC`, `gTRC`, `bTRC`, `wtpt` in its color profile.
+
+Obtained from https://littlecms.com/blog/2020/09/09/browser-check/
+
 ### DJI\_406.JPG
 
 Off a DJI Mini 2, unmodified.
@@ -85,6 +99,12 @@ Taken with a Pixel Pro 6 with the main camera, unmodified.
 * Does _not_ contain depth information.
 * Has v4 `ICC_PROFILE` with `para` curves.
 * Has trailing debug data after EOI marker.
+
+### stress.jpeg
+
+Has `A2B0` (type `mAB `), `B2A0` (type `mBA `) in its color profile.
+
+Obtained from https://littlecms.com/blog/2020/09/09/browser-check/
 
 Spec PDFs
 ---------
