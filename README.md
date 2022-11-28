@@ -85,6 +85,12 @@ jpeg files (as opposed to the default HEIF).
 * No XMP section.
 * The main image is 4032x3024.
 
+### long-icc.jpeg
+
+* Has an ICC profile that's spread over several chunks.
+
+Obtained from https://github.com/drewnoakes/metadata-extractor/issues/65
+
 ### PXL\_20221005\_164629049.jpg
 
 Taken with a Pixel Pro 6 with the main camera, unmodified.
