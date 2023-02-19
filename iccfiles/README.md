@@ -58,6 +58,7 @@ mABmBA.icc
 From [a color.org test image](https://www.color.org/Upper_Left.jpg).
 
 Contains several 'mAB ', 'mBA ' tags, some with and some without CLUT.
+The CLUTs are 16-bit.
 
 ```
 v4.0.0, Display
