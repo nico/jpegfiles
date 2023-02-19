@@ -3,6 +3,28 @@ iccfiles
 
 Various ICC profiles.
 
+mABmBA.icc
+----------
+
+From [a color.org test image](https://www.color.org/Upper_Left.jpg).
+
+Contains several 'mAB ', 'mBA ' tags, some with and some without CLUT.
+
+```
+v4.0.0, Display
+'cprt': 'mluc', offset 264, size 110
+'desc': 'mluc', offset 376, size 40
+'wtpt': 'XYZ ', offset 416, size 20
+'bkpt': 'XYZ ', offset 436, size 20
+'chad': 'sf32', offset 456, size 44
+'A2B0': 'mAB ', offset 500, size 1688
+'A2B2': 'mAB ', offset 500, size 1688
+'A2B1': 'mAB ', offset 2188, size 1688
+'B2A0': 'mBA ', offset 3876, size 1792
+'B2A2': 'mBA ', offset 3876, size 1792
+'B2A1': 'mBA ', offset 5668, size 1792
+```
+
 p3-v4.icc
 ---------
 
