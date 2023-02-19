@@ -3,6 +3,28 @@ iccfiles
 
 Various ICC profiles.
 
+cmyk-mft1mft2.icc
+-----------------
+
+From [a CMYK jpeg](https://upload.wikimedia.org/wikipedia/en/2/25/Channel_digital_image_CMYK_color.jpg).
+
+Unusual class, data color space, PCS, rendering intent.
+Containts mft1 and mft2 tag types, and a `'gamt'` tag.
+
+```
+v2.1.0, Output, CMYK, PCSLAB, Media-relative colorimetric
+'desc': 'desc', offset 252, size 116
+'cprt': 'text', offset 368, size 43
+'wtpt': 'XYZ ', offset 412, size 20
+'A2B0': 'mft2', offset 432, size 41478
+'A2B2': 'mft2', offset 432, size 41478
+'A2B1': 'mft2', offset 41912, size 41478
+'B2A0': 'mft1', offset 83392, size 145588
+'B2A1': 'mft1', offset 228980, size 145588
+'B2A2': 'mft1', offset 374568, size 145588
+'gamt': 'mft1', offset 520156, size 37009
+```
+
 lightroom.icc
 -------------
 
