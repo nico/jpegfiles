@@ -25,6 +25,21 @@ v4.0.0, Display
 'B2A1': 'mBA ', offset 5668, size 1792
 ```
 
+mft2.icc
+--------
+
+From ../check\_lut.jpeg
+
+```
+v2.1.0, Input
+'desc': 'desc', offset 204, size 212
+'cprt': 'text', offset 416, size 41
+'wtpt': 'XYZ ', offset 460, size 20
+'A2B0': 'mft2', offset 480, size 29554
+'A2B1': 'mft2', offset 480, size 29554
+'A2B2': 'mft2', offset 480, size 29554
+```
+
 p3-v4.icc
 ---------
 
