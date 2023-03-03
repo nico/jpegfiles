@@ -111,3 +111,10 @@ v4.0.0, Display
 'bTRC': 'para', offset 460, size 32
 'gTRC': 'para', offset 460, size 32
 ```
+
+sRGB-gimp.icc
+-------------
+
+Extracted from a jpeg written by GIMP 2.10.32 (revision 1), by making a new
+image, in Advanced Options picking "Color profile: Built-in RGB (GIMP built-in
+sRGB)".
