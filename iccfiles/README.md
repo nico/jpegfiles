@@ -112,6 +112,12 @@ v4.0.0, Display
 'gTRC': 'para', offset 460, size 32
 ```
 
+sRGB-Adobe.icc
+--------------
+
+/Library/Application\ Support/Adobe/Color/Profiles/Recommended/sRGB\ Color\ Space\ Profile.icm
+with Photoshop installed on macOS.
+
 sRGB-gimp.icc
 -------------
 
