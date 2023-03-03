@@ -118,3 +118,8 @@ sRGB-gimp.icc
 Extracted from a jpeg written by GIMP 2.10.32 (revision 1), by making a new
 image, in Advanced Options picking "Color profile: Built-in RGB (GIMP built-in
 sRGB)".
+
+sRGB-Compact-ICC-Profiles-v4.icc
+--------------------------------
+
+https://github.com/saucecontrol/Compact-ICC-Profiles/blob/8e22c54/profiles/sRGB-v4.icc
