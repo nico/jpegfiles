@@ -118,6 +118,11 @@ sRGB-Adobe.icc
 /Library/Application\ Support/Adobe/Color/Profiles/Recommended/sRGB\ Color\ Space\ Profile.icm
 with Photoshop installed on macOS.
 
+sRGB-apple.icc
+--------------
+
+/System/Library/ColorSync/Profiles/sRGB Profile.icc on macOS 13.2.
+
 sRGB-gimp.icc
 -------------
 
