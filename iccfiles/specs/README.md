@@ -3,6 +3,10 @@ Color PDFs
 
 Various specs on color.
 
+## 1931-j-guild-paper.pdf
+
+Obtained from [here](https://royalsocietypublishing.org/doi/pdf/10.1098/rsta.1932.0005)
+
 ## cie-1931-derivation.pdf
 
 Obtained from [here](https://silo.tips/download/how-the-cie-1931-color-matching-functions-were-derived-from-wright-guild-data)
