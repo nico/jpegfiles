@@ -7,6 +7,10 @@ Various specs on color.
 
 Obtained from [here](https://royalsocietypublishing.org/doi/pdf/10.1098/rsta.1932.0005)
 
+## cie-1931-another-derivation.pdf
+
+Obtained from [here](https://philservice.typepad.com/Wright-Guild_and_CIE_RGB_and_XYZ.pages.pdf)
+
 ## cie-1931-derivation.pdf
 
 Obtained from [here](https://silo.tips/download/how-the-cie-1931-color-matching-functions-were-derived-from-wright-guild-data)
