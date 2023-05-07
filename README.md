@@ -30,11 +30,9 @@ Same as `12-bit.jpg` above, but also passed `-progressive` to `cjpeg`:
     ./cjpeg -verbose -precision 12 -progressive \
         -outfile 12-bit-progressive.jpg 16-bit.ppm
 
-
 ### 16-bit.tiff
 
 See `12-bit.jpg` description above.
-
 
 ### check\_lut.jpeg
 
