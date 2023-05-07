@@ -118,7 +118,7 @@ Has 12 bits per channel.
 
 Created a 16 bpc image in Acorn.app, saved it as (16-bit) tiff, then ran:
 
-    sips -s format pbm -o yo.ppm ~/Documents/yo.tiff
+    sips -s format pbm -o yo.ppm yo.tiff
 
 to convert it to (16-bit) ppm, then ran
 
@@ -126,6 +126,10 @@ to convert it to (16-bit) ppm, then ran
 
 with a recent build of libjpeg-turbo (rev 6c61033349) to create the 12-bit
 jpeg file. (I built libjpeg-turbo using just `cmake -GNinja .. ; ninja`.)
+
+### yo.tiff
+
+See `yo.jpeg` description above.
 
 Spec PDFs
 ---------
