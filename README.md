@@ -21,9 +21,19 @@ to convert it to (16-bit) ppm, then ran
 with a recent build of libjpeg-turbo (rev 6c61033349) to create the 12-bit
 jpeg file. (I built libjpeg-turbo using just `cmake -GNinja .. ; ninja`.)
 
+(The `Warning: unexpected GIF version number '@?` message it prints is benign.)
+
+### 12-bit.jpg
+
+Same as `12-bit.jpg` above, but also passed `-progressive` to `cjpeg`:
+
+    ./cjpeg -verbose -precision 12 -progressive \
+        -outfile 12-bit-progressive.jpg 16-bit.ppm
+
+
 ### 16-bit.tiff
 
-See `12-bit.jpeg` description above.
+See `12-bit.jpg` description above.
 
 
 ### check\_lut.jpeg
