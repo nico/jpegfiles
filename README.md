@@ -90,7 +90,6 @@ this is an R98 JPEG, which would limit Exif thumbnail size to 160x120).
 * Has v2 `ICC_PROFILE`.
 * Has ICMP section (...I think).
 
-
 ### GOPRO0027.JPG
 
 Off a GoPro HERO10 Black, unmodified.
@@ -144,7 +143,6 @@ Spec PDFs
 ---------
 
 See `specs` folder.
-
 
 Where JPEGs can have thumbnails
 -------------------------------
