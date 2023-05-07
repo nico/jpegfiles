@@ -6,6 +6,26 @@ Various jpeg test images, and spec PDFs
 Images
 ------
 
+### 12-bit.jpg
+
+Has 12 bits per channel.
+
+Created a 16 bpc image in Acorn.app, saved it as (16-bit) tiff, then ran:
+
+    sips -s format pbm -o 16-bit.ppm 16-bit.tiff
+
+to convert it to (16-bit) ppm, then ran
+
+    ./cjpeg -verbose -precision 12 -outfile 12-bit.jpg 16-bit.ppm
+
+with a recent build of libjpeg-turbo (rev 6c61033349) to create the 12-bit
+jpeg file. (I built libjpeg-turbo using just `cmake -GNinja .. ; ninja`.)
+
+### 16-bit.tiff
+
+See `12-bit.jpeg` description above.
+
+
 ### check\_lut.jpeg
 
 Has `A2B0`, `A2B1`, `A2B1` (of type `mft2`) in its color profile instead of the
@@ -111,25 +131,6 @@ Taken with a Pixel Pro 6 with the main camera, unmodified.
 Has `A2B0` (type `mAB `), `B2A0` (type `mBA `) in its color profile.
 
 Obtained from https://littlecms.com/blog/2020/09/09/browser-check/
-
-### yo.jpg
-
-Has 12 bits per channel.
-
-Created a 16 bpc image in Acorn.app, saved it as (16-bit) tiff, then ran:
-
-    sips -s format pbm -o yo.ppm yo.tiff
-
-to convert it to (16-bit) ppm, then ran
-
-    ./cjpeg -verbose -precision 12 -outfile yo.jpg yo.ppm
-
-with a recent build of libjpeg-turbo (rev 6c61033349) to create the 12-bit
-jpeg file. (I built libjpeg-turbo using just `cmake -GNinja .. ; ninja`.)
-
-### yo.tiff
-
-See `yo.jpeg` description above.
 
 Spec PDFs
 ---------
