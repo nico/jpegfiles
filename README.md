@@ -155,3 +155,5 @@ Where JPEGs can have thumbnails
 * After the main image data, with the MPF extension (indicated by the MPF APP2
   marker segment -- but the image data is outside a marker, so this is the
   only thumbnail that can be larger than 64 kiB)
+
+See also <https://github.com/nico/hack/blob/main/notes/jpeg_exif_dump.md#metadata-and-thumbnails>.
