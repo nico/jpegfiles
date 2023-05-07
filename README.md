@@ -23,7 +23,7 @@ jpeg file. (I built libjpeg-turbo using just `cmake -GNinja .. ; ninja`.)
 
 (The `Warning: unexpected GIF version number '@?` message it prints is benign.)
 
-### 12-bit.jpg
+### 12-bit-progressive.jpg
 
 Same as `12-bit.jpg` above, but also passed `-progressive` to `cjpeg`:
 
