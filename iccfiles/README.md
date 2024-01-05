@@ -58,10 +58,10 @@ mABmBA.icc
 From [a color.org test image](https://www.color.org/Upper_Left.jpg).
 
 Contains several 'mAB ', 'mBA ' tags, some with and some without CLUT.
-The CLUTs are 16-bit.
+The CLUTs are 16-bit and small (2x2x2).
 
 ```
-v4.0.0, Display
+v4.0.0, Display, XYZ, RGB
 'cprt': 'mluc', offset 264, size 110
 'desc': 'mluc', offset 376, size 40
 'wtpt': 'XYZ ', offset 416, size 20
@@ -80,8 +80,10 @@ mft2.icc
 
 From ../check\_lut.jpeg
 
+CLUT size is 17, but it's an artificial, monochromatic CLUT.
+
 ```
-v2.1.0, Input
+v2.1.0, Input, XYZ, RGB
 'desc': 'desc', offset 204, size 212
 'cprt': 'text', offset 416, size 41
 'wtpt': 'XYZ ', offset 460, size 20
@@ -144,3 +146,5 @@ sRGB-RTv4.icc
 -------------
 
 [source](https://github.com/Beep6581/RawTherapee/blob/3ba386d/rtdata/iccprofiles/output/RTv4_sRGB.icc)
+
+Raw Therapee's sRGB profile.
