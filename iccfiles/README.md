@@ -148,3 +148,25 @@ sRGB-RTv4.icc
 [source](https://github.com/Beep6581/RawTherapee/blob/3ba386d/rtdata/iccprofiles/output/RTv4_sRGB.icc)
 
 Raw Therapee's sRGB profile.
+
+sRGB\_v4\_ICC\_preference.icc
+-----------------------------
+
+[source](https://www.color.org/srgbprofiles.xalter)
+
+A LAB sRGB profile.
+
+Large-ish (17x17x17) CLUT with RGB data color space, in mAB / mBA tags.
+
+```
+4.2.0, ColorSpace, LAB, RGB
+'desc': 'mluc', offset 240, size 118
+'A2B0': 'mAB ', offset 360, size 29712
+'A2B1': 'mAB ', offset 30072, size 436
+'B2A0': 'mBA ', offset 30508, size 29748
+'B2A1': 'mBA ', offset 60256, size 508
+'rig0': 'sig ', offset 60764, size 12
+'wtpt': 'XYZ ', offset 60776, size 20
+'cprt': 'mluc', offset 60796, size 118
+'chad': 'sf32', offset 60916, size 44
+```
