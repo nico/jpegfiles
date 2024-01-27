@@ -133,6 +133,16 @@ Taken with a Pixel Pro 6 with the main camera, unmodified.
 * Has v4 `ICC_PROFILE` with `para` curves.
 * Has trailing debug data after EOI marker.
 
+### PXL\_20240119\_003210701~2.jpg
+
+Taken with a Pixel Pro 8 with the main camera, then cropped in Google Photos.
+
+* Uses MPF to store a gain map after the main image
+* Small XMP data (which mostly contains gain map metadata)
+* No thumbnail
+* Has GPS (and other EXIF)
+* Has fixed ICC D50 wtpt tag
+
 ### stress.jpeg
 
 Has `A2B0` (type `mAB `), `B2A0` (type `mBA `) in its color profile.
