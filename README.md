@@ -60,6 +60,20 @@ Off a DJI Mini 2, unmodified.
 * Has an XMP section.
 * No colorspace information
 
+### DSC00048-hdr.jpg
+
+Off a Sony a7c ii, developed in Lightroom Classic by clicking "HDR", "Auto",
+and boosting exposure some, then File-\>Export-\>File Settings-\>JPEG,
+ticked "HDR output" (in sRGB), and Image Sizing Resize to Fit 1000x1000.
+
+* EXIF data
+* APP13 marker segment
+* ICC profile
+* APP1 XAP XML
+* APP2 MPF for gain map data
+* APP2 urn:iso:std:iso:ts:21496:-1 for gain map metadata
+* APP14 Adobe color block
+
 ### DSC03136.JPG
 
 Off a Sony a7iv, unmodified, manually copied off the memory card.
