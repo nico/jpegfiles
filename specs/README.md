@@ -3,13 +3,23 @@ Spec PDFs
 
 Various specs on data and metadata found in jpeg files.
 
+## CIPA\_DC-007-2025\_E.pdf
+
+"CIPA DC-007-Translation-2025: Multi-Picture Format"
+
+Explains APP2 "MPF" markers, with updates for types 4 and 5.
+
+Obtained from [here](https://www.cipa.jp/std/documents/download_e.html?CIPA_DC-007-2025_E)
+
 ## DC-007\_E.pdf
+
+Obsolete, use "CIPA\_DC-007-2025\_E.pdf above instead.
 
 "CIPA DC-007-Translation-2009: Multi-Picture Format"
 
 Explains APP2 "MPF" markers.
 
-Used to be at http://www.cipa.jp/std/documents/e/DC-007_E.pdf
+Used to be at <http://www.cipa.jp/std/documents/e/DC-007_E.pdf>
 
 Obtained from [here](https://web.archive.org/web/20190713230858/http://www.cipa.jp/std/documents/e/DC-007_E.pdf)
 
