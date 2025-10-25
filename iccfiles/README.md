@@ -25,6 +25,22 @@ v2.1.0, Output, CMYK, PCSLAB, Media-relative colorimetric
 'gamt': 'mft1', offset 520156, size 37009
 ```
 
+gimp-gray.icc
+-------------
+
+Extracted from a grayscale png written by 3.0.0 (revision 1) with
+"Color profile: Built-in grayscale (GIMP built-in D65 grayscale with sRGB TRC)".
+
+```
+v4.4.0, Display
+'desc': 'mluc', offset 204, size 110
+'cprt': 'mluc', offset 316, size 54
+'wtpt': 'XYZ ', offset 372, size 20
+'kTRC': 'para', offset 392, size 32
+'dmnd': 'mluc', offset 424, size 36
+'dmdd': 'mluc', offset 460, size 82
+```
+
 lightroom.icc
 -------------
 
