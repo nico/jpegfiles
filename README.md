@@ -181,3 +181,7 @@ Where JPEGs can have thumbnails
   only thumbnail that can be larger than 64 kiB)
 
 See also <https://github.com/nico/hack/blob/main/notes/jpeg_exif_dump.md#metadata-and-thumbnails>.
+
+The `slop/thumbnails/` directory has synthetic test images that store a different
+thumbnail in each of these places (at different sizes), plus notes on which macOS
+thumbnailing APIs read which one.
