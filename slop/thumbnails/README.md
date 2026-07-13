@@ -156,25 +156,36 @@ i.e. a full render, not the embedded thumb.)
 <dir> thumbnail-places-nojfxx.jpg` for the qlmanage side (the per-representation
 sweep was a throwaway script).*
 
-### 6. How Finder uses the thumb: one decode, not two
+### 6. How Finder uses the thumb: it decodes the thumb, then the main if too small
 
 ImageIO's thumbnail API always hands back the capped embedded thumb and never
 promotes to the primary, so the "is the thumb big enough?" decision lives in
-QLThumbnailGenerator. Effectively it asks ImageIO for the embedded thumb capped at
-`min(requested, main_size)`, then:
+QLThumbnailGenerator. It *decodes the embedded thumb*, and then:
 
-* thumb big enough for the request  -> serve the thumb, decoding only that image;
-* thumb too small                   -> decode the primary instead.
+* thumb big enough for the request  -> serve the thumb (one decode);
+* thumb too small                   -> *also* decode the main -- a real double decode.
 
-There is no wasteful double *full* decode. When it escalates, the thumb work it
-already did is trivial (a 160x120 decode, about 128 us, versus ~357 us for a
-`FromImageAlways` full decode of even this tiny 1024x768 primary; the ratio grows
-enormously for a real multi-megapixel photo). `CGImageSourceCopyPropertiesAtIndex`
-exposes only the *main* image's dimensions, not the thumb's, so the size check
-comes from the thumbnail request itself.
+Measured, not reasoned. With a fixed 2000x1500 main and an oversized Exif thumb
+whose size was varied, QL's escalation time (request just above the thumb size, so
+it falls back to the main) rose ~10 ms as the thumb grew 600 -> 1900 px, even
+though the main image produced is byte-identical:
 
-*Reproduce: chiefly reasoning, backed by #7 (`bigthumb.py`); the decode timings
-came from a throwaway timing loop over `CGImageSourceCreateThumbnailAtIndex`.*
+    thumb  600px:  escalate 22.5 ms   single-main 25.5 ms
+    thumb 1900px:  escalate 34.3 ms   single-main 27.9 ms   (main decode held fixed)
+
+Only decoding the thumb scales with its pixel count (a header/metadata check would
+be size-independent), so QL decodes the thumb before falling back. This is
+invisible in practice because real Exif thumbs are tiny (160x120, sub-millisecond);
+it only becomes a visible waste for an atypically large embedded thumb.
+
+(`CGImageSourceCopyPropertiesAtIndex` exposes only the *main* image's dimensions,
+not the thumb's, which fits: QL learns the thumb's size by decoding it, not from a
+cheap metadata lookup.)
+
+*Reproduce: a throwaway QL-timing script over files built with an oversized Exif
+thumb of varying size. QL timing is noisy (IPC jitter of a few ms), so the robust
+signal is the trend -- escalation cost rising with thumb pixel size -- not the
+absolute milliseconds.*
 
 ### 7. Oversized thumbnails (`bigthumb.jpg`)
 
@@ -195,8 +206,9 @@ has a 1100x825 Exif thumb and a 1024x768 main. Result:
       size=512  -> 512x384  (thumb)     size=1300 -> 1024x768 (thumb)
       size=800  -> 800x600  (thumb)     size=2048 -> 1024x768 (thumb)
 
-This confirms #6: the source is picked by comparing the request to the thumb's own
-size, and only one image is decoded.
+This is the #6 selection rule in action: QL compares the request to the thumb's own
+size. Here the thumb is always big enough, so it serves the thumb and never decodes
+the main (one decode); a too-small thumb is what triggers the double decode in #6.
 
 *Reproduce: build with `bigthumb.py`, then point the probes at it —
 `imageio-thumbnail-probe.py bigthumb.jpg` and `finder-thumbnail-probe.py
